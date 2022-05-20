@@ -1,0 +1,112 @@
+*{margin: 0;
+    padding: 0;
+}
+body{font-size: 16px;}
+img{mix-width: 100%;}
+header{background-color:rgb(249, 247, 252);
+    padding: 10px 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;}
+.logo{
+    text-align: center;
+}
+.logo a{}
+.logo a img{
+    width:150px;
+}
+nav{
+}
+nav ul{ display: flex;
+    justify-content: center;
+    
+}
+nav ul li{list-style-type: none;
+  
+    
+}
+nav ul li a{
+    color: #120727;
+    font-weight: 700;
+   font-size: 20px;
+   text-decoration: none;
+   padding: 10px 20px;
+   display: block;
+   border-radius: 5px;
+   transition: all 0.5s ease;
+   
+}
+nav ul li a:hover{
+    background-color: #f4c123;
+    color: #120727;
+}
+
+
+.service-section{
+    padding: 40px 0px;
+    background-color: blue; }
+   
+.heading{
+    text-align: center;
+}
+.heading h1{ 
+    color:yellow;
+    font-size: 50px;
+    font-weight: 800px;
+    text-transform: capitalize;
+    width: 500px;
+    margin: auto;
+}
+.heading p{}
+.flex{ display: flex;}
+.column{ width: 25%;
+padding: 10px;}
+.service{
+    box-shadow: 0 10px 20px 0 #120727;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(172, 199, 223);
+}
+.service img{
+   width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+.service h2{ 
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    color: rgb(40, 4, 54);
+    
+  
+}
+.service p{ 
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.service div{
+    padding: 10px 10px 0px ;
+    
+}
+.contact-section{
+    text-align: center;
+    padding: 100px 0px;
+    background-color: #9d9a8f;
+    background-image: url(../images/photo-1449426468159-d96dbf08f19f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    background-blend-mode: darken;
+}
+.contact-section p{
+    color: rgb(252, 251, 249);
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact-section h1{  font-size: 50px;
+    color:#fff;
+    font-weight: 800px;}
